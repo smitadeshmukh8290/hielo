@@ -1,0 +1,258 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#my_navigation .navbar-nav{
+    float: none;
+}
+#my_navigation .navbar-nav > li {
+    float: none;
+    padding-left: 19px;
+    width: 30%;
+}
+.top_header{
+    padding:0;
+}
+#my_navigation{
+   background: none;
+    border: 0;
+    border-radius: 0;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+ }
+#my_navigation .navbar-toggle{
+    display: block;
+    border:none;
+    cursor: pointer;
+}
+#my_navigation .navbar-toggle:hover{ background:none;}
+#my_navigation .navbar-header{
+    float:none;
+}
+.icon-bar_left{
+       float: left;
+}
+.icon_right{
+    float: right;
+    padding-left: 14px;
+    position: relative;
+    top: -3px;
+}
+#my_navigation  .icon-bar{
+    background-color:#fff !important;
+}
+#my_navigation .navbar-brand,#my_navigation ul li a, #my_navigation .icon_right{
+    color:#fff;
+}
+#my_navigation ul li:hover a, #my_navigation ul li.active a{
+    color:#fff;
+    background-color: gray;
+}
+/* carousel */
+.carousel .item{
+    background: url('../images/slide01.jpg');
+    height: 100vh;
+    width:100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel .item1{  background: url('../images/slide02.jpg') no-repeat;}
+.carousel .item2{  background: url('../images/slide03.jpg') no-repeat;}
+/* banner text start */
+.baner_text{
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+    .baner_text hr{
+    width: 50%;
+}
+.baner_text  h1{
+    font-weight: 300;
+    font-size: 120px;
+    margin-top: 5px;
+}
+.baner_text p{
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+/* two card img section start */
+.two_card{
+    background-color: #f2f2f2;
+    width:100%;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+.left, .right{
+    text-align: center;
+    background-color: #fff;
+    width: 95%;
+    margin:40px 0;
+}
+.left img, .right img{
+    width:100%;
+}
+.left h3, .right h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+.left h5, .right h5{
+   letter-spacing: 2px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-top: 12px;
+}
+.left p, .right p{
+    color: gray;
+    text-align: left;
+    line-height: 150%;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 30px 32px;
+}
+.my_btn{
+    height: 40px;
+    width: 150px;
+    background: none;
+    border: 1px solid gray;
+    font-weight: 200;
+    font-size: 17px;
+    margin-bottom: 34px;
+}
+/* two card img section end */
+
+
+/* full_quote start */
+.full_quote {
+	background: URL('../images/bg.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 80px 0;
+	color: #fff;
+	text-align: center;
+}
+.full_quote p, .four_img p{
+    font-weight: 20;
+    letter-spacing: 2px;
+}
+.full_quote h3, .four_img h3{
+    font-weight: 300;
+    font-size: 26px;
+}
+.full_quote  hr, .four_img hr{
+    width: 50%;
+    border-top: 1px solid #fff;
+}
+/* full_quote end */
+/* four img start */
+.four_img{
+    background-color: #f2f2f2;
+    color:gray;
+    padding: 96px 0;
+}
+.four_img hr{
+    border-top: 1px solid gray;
+}
+.for_mar img{
+    margin-top: 15%;
+    width: 95%;
+    background-color: #fff;
+    padding:10px;
+}
+.img_left{
+    margin-left: 5%;
+}
+/* four img end */
+/* footer start */
+footer{
+    color:gray;
+    background-color: #000;
+    text-align: center;
+    padding: 44px 0;
+}
+footer a{
+    color:gray;
+    font-size: 25px;
+    padding:10px;
+}
+footer p{
+    margin-top: 20px;
+}
+/* footer end */
+/* media query */
+
+/* mobile devices */
+@media (max-width:767px){
+
+    .baner_text h1{
+        font-size:50px;
+    }
+    
+    .right{
+        margin-left:0;
+    }
+    .left h3, .right h3{
+        font-size: 20px;
+    }
+    .left h5, .right h5{
+        font-size: 15px;
+    }
+    .for_mar img{
+        width: 100%;
+    }
+    .four_img .img_left{
+        margin-left:0;
+    }
+    .four_img .left, .four_img .right{
+        width:100%;
+    }
+    .left, .right{
+        width:100%;
+    }
+}
+/* small device (tablet) */
+@media (min-width:768px) and (max-width:991px){
+    .baner_text h1{
+        font-size:50px;
+    }
+    
+    .right{
+        margin-left:0;
+    }
+    .left h3, .right h3{
+        font-size: 20px;
+    }
+    .left h5, .right h5{
+        font-size: 15px;
+    }
+    .for_mar img{
+        width: 100%;
+    }
+    .four_img .img_left{
+        margin-left:0;
+    }
+    .four_img .left, .four_img .right{
+        width:100%;
+    }
+
+}
+/* medium devices desktop */
+@media (min-width: 992px) and (max-width: 1200px){
+    .left h3, .right h3{
+        font-size: 20px;
+    }
+    .left h5, .right h5{
+        font-size: 15px;
+    }
+    .left, .right{
+        width:100%;
+    }
+}
